@@ -6,10 +6,10 @@ class Database:
 
     def __init__(self):
         self.connection = pymysql.connect(
-            host='localhost',
-            user='root',
-            password='zadrote5',
-            db='mvc',
+            host='host-name',
+            user='db-login',
+            password='db-pass',
+            db='db-name',
             charset='utf8mb4',
             cursorclass=DictCursor
         )
